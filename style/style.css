@@ -7,11 +7,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    height: 97vh;
+    background-color: #414141;
+}
 header{
     height: 100vh;
     width: 270px;
     background: rgb(25, 25, 25);
-    position: fixed;
+}
+.global{
+    display: flex;
 }
 #cover{
     width: 100%;
@@ -37,6 +43,52 @@ a{
     color: white;
     text-decoration: none;
 }
+main{
+    position: relative;
+    padding: 40px;
+}
 .Nav-Cover{
     padding: 0;
+}
+#Welcome-messege{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    width: 400px;    
+}
+#description{
+    transform: translateY(10px);
+    color: #bebebe;
+    width: 450px;
+}
+
+.terminal {
+    width: 600px;
+    height: 400px;
+    max-width: 800px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.prompt {
+    color: #1ebe1e;
+}
+
+.command {
+    color: rgb(4, 162, 4);
+    font-weight: bold;
+}
+
+output{
+    color: white;
+}
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(7, 186, 7);
+}
+
+.pixel-size {
+    color: green;
+    font-size: 40px;
 }

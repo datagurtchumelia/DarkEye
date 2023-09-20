@@ -8,57 +8,58 @@
   <title>DarkEye | Home</title>
 </head>
 <body>
+  <section class="global">
     <header>
       <nav>
-        <img id="cover" src="./images/Project.jpg" alt="">
+      <a href="./index.php"><img id="cover" src="./images/Project.jpg" alt=""></a>
         <ul>
-          <a href="">
-
+          <a href="./pages/sqli.php">
+            
             <li>
               <i class="fa-solid fa-database"></i>
               SQL Injection
             </li>
           </a>
-
-          <a href="">
-
+          
+          <a href="./pages/xss.php">
+            
             <li>
               <i class="fa-brands fa-js"></i>
               XSS
             </li>
           </a>
 
+        </li>
+        <a href="./pages/lfi.php">
+          
+          <li>
+            <i class="fa-solid fa-folder-closed"></i>
+            LFI
           </li>
-          <a href="">
-
-            <li>
-              <i class="fa-solid fa-folder-closed"></i>
-              LFI
-            </li>
-          </a>
-          <a href="">
-
-            <li>
+        </a>
+        <a href="./pages/msf.php">
+          
+          <li>
             <i class="fa-solid fa-shield-halved"></i>
             MSF Builder
             </li>
           </a>
-          <a href="">
-
+          <a href="./pages/osint.php">
+            
             <li>
               <i class="fa-solid fa-eye"></i>
               Osint
             </li>
           </a>
-          <a href="">
-
+          <a href="./pages/webshell.php">
+            
             <li>
               <i class="fa-solid fa-viruses"></i>
               Web Shell
             </li>
           </a>
-          <a href="">
-
+          
+          <a href="./pages/terminal.php">
             <li>
               <i class="fa-solid fa-terminal"></i>
               Terminal
@@ -67,8 +68,33 @@
         </ul>
       </nav>
     </header>
-
-
-  <script src="./javascript/script.js?v=<?php echo(time())?>"></script>
-</body>
+    <main>
+      <h1 id="Welcome-messege"></h1>
+      <p id="description"></p>
+      <br>
+      <div class="terminal">
+        <div class="">
+            <h1 class="description">Welcome To DarkEye</h1>
+        </div>
+        <br>
+        <div class="output">
+        </div>
+        <div class="output">
+            <span class="description">DarkEye is a cyber security and hacking project that helps you find vulnerabilities, use different tools, create a backdoor, Osint the site
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <span>Created by:</span>
+            <br>
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/datagurtchumelia">github.com/datagurtchumelia</a>
+            <br>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/data-gurtchumelia/">www.linkedin.com/in/data-gurtchumelia/</a>
+            </span>
+        </div>
+      </div>
+    </main>
+  </section>
+    
+    <script src="./javascript/script.js"></script>
+  </body>
 </html>
