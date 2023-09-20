@@ -1,2 +1,2 @@
 # DarkEye
-![Cover Image](./DarkEye.jpg)
+![Cover Image](./images/DarkEye.jpg)
